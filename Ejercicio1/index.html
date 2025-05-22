@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio #1</title>
+    </head>
+    <body>
+        <!-- Diseño del contenido dentro de la pagina -->
+        <style>
+            ul {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                list-style: none;
+                padding: 0;
+            }
+            body {
+                background-color: #4f3360;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            .texto-blanco {
+                color: white;
+            }
+            .enlace {
+                color: rgb(0, 0, 0);
+            }
+            .boton-enlace {
+                background-color: #ffffff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            #ubicacion {
+                text-align: center;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+        </style>
+
+        <!-- Referencia de la imagen-->
+        <picture>
+            <img src="/Ejercicio1/Images/image.png" width="600px" height="200px">
+        </picture>
+
+        <!-- Titulo principal de la pagina -->
+        <h1 class="texto-blanco">¿Quien soy?</h1>
+        
+        <!-- Contenido del titulo principal -->
+        <div id="ubicacion">
+            <p class="texto-blanco">
+                🟣Soy Cris, Me apasiona la innovación, lo diferente y lo especial. Ya sea
+                analizando datos para descubrir historias ocultas, diseñando experiencias
+                digitales centradas en el usuario, o liderando equipos hacia una visión
+                común, siempre actúo con entusiasmo, creatividad y un liderazgo
+                transformacional que deja huella.
+            </p>
+            
+            <!--Titulo separador-->
+            <h2 class="texto-blanco">¿Que tecnologias manejo?</h2>
+            <!--Contenido del titulo separador-->
+            <ul class="texto-blanco">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+            <!--Titulo separador-->
+            <h2 class="texto-blanco">Conozcamonos</h2>
+            <ul>
+                <li>
+                    <button class="boton-enlace">
+                        <a class="enlace" href="https://open.spotify.com/user/qbe8sd2zpuj7ha740wmkygdfc" target="_blank">Mi spotify</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="boton-enlace">
+                        <a class="enlace" href="https://github.com/Crismiau" target="_blank">Mi github</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="boton-enlace">
+                        <a class="enlace" href="https://www.linkedin.com/in/cristian-camilo-agudelo-3198b42a6/" target="_blank">Mi linkedin</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

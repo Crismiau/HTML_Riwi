@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio semantico</title>
+    <!-- aqui estamos importanto la fuent que vamos a utilizar en la pagina-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header style="background-color: #f0f0f0; padding: 20px; text-align: center">
+        <h1>Mi Página Web</h1>
+        <nav>
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline; margin: 0 10px;">
+                    <i class="fas fa-home"></i>
+                    <a href="/Ejercicio 3/index3.html">Inicio</a>
+                </li>
+                <li style="display: inline; margin: 0 10px;">
+                    <i class="fas fa-blog"></i>
+                    <a href="/Ejercicio 3/blog.html">Blog</a>
+                </li>
+                <li style="display: inline; margin: 0 10px;">
+                    <i class="fas fa-envelope"></i>
+                    <a href="/Ejercicio 3/contacto.html">Contacto</a>
+                </li>
+                <li style="display: inline; margin: 0 10px;">
+                    <i class="fas fa-info-circle"></i>
+                    <a href="/Ejercicio 3/acercade.html">Acerca de</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 20px; text-align: center;" >
+        <section>
+            <h2>Video </h2>
+            <video width="320" height="240" controls loops>
+                <!-- Aqui agregamos el video -->
+                <source src="/Ejercicio 3/imagenes/Gato bailando (plantilla).mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section>
+            <h2>Mapa de Imagen</h2>
+            <img src="/Ejercicio 3/imagenes/gatito1.png" alt="Mapa clickeable" usemap="mapagatito" style="width:300px;height:200px;">
+            <map name="mapagatito">
+                <area shape="rect" coords="34,44,270,350" href="/Ejercicio 3/contacto.html" alt="Enlace a gatito bailando">
+            </map>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form>
+                <div style="margin-bottom: 15px;">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad" required placeholder="Tu edad">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Horario de clases</h2>
+            <table style="border-collapse: collapse; width: 100%; margin: 20px 0;" aria-label="Horario semanal de clases">
+                <caption>Horario Semanal</caption>
+                <tr style="background-color: #f0f0f0;">
+                    <th style="border: 1px solid black; padding: 8px;">Hora</th>
+                    <th style="border: 1px solid black; padding: 8px;">Lunes</th>
+                    <th style="border: 1px solid black; padding: 8px;">Martes</th>
+                    <th style="border: 1px solid black; padding: 8px;">Miércoles</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">8:00 AM</td>
+                    <td style="border: 1px solid black; padding: 8px;">Matemáticas</td>
+                    <td style="border: 1px solid black; padding: 8px;">Historia</td>
+                    <td style="border: 1px solid black; padding: 8px;">Ciencias</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">10:00 AM</td>
+                    <td style="border: 1px solid black; padding: 8px;">Física</td>
+                    <td style="border: 1px solid black; padding: 8px;">Química</td>
+                    <td style="border: 1px solid black; padding: 8px;">Biología</td>
+                </tr>
+            </table>
+
+            <h3>Lista de Cursos</h3>
+            <ul>
+                <li>Matemáticas
+                    <ul>
+                        <li>Álgebra</li>
+                        <li>Geometría</li>
+                        <li>Trigonometría</li>
+                    </ul>
+                </li>
+                <li>Ciencias
+                    <ul>
+                        <li>Física</li>
+                        <li>Química</li>
+                        <li>Biología</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <article>
+            <h2>Cita Inspiradora</h2>
+            <blockquote cite="https://proverbia.net/frase-del-dia">
+                <p><em>La educación es el arma más poderosa que puedes usar para cambiar el mundo.</em></p>
+                <footer>- <strong>Nelson Mandela</strong></footer>
+            </blockquote>
+            <p>Este es un texto con <mark>elementos destacados</mark> y <em>énfasis</em> para mostrar uso en las etiquetas semánticas.</p>
+        </article>
+    </main>
+
+    <footer style="background-color: #f0f0f0; padding: 20px; text-align: center; margin-top: 20px;">
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
