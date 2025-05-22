@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulos{
+            color: rgb(222, 255, 184);
+            background-color:  rgb(77, 109, 51);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 200PX;
+            padding: 20px;
+        }
+        #subtitulo{
+            color:rgb(222, 255, 184);
+            background-color:  rgb(77, 109, 51);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 200PX;
+            padding: 20px;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .lista{
+            display: flex;
+            justify-content: center;
+            list-style: symbols();
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 500px;
+            margin-right: 500px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            }
+        #pasoscafe{
+            color: rgb(222, 255, 184);
+            background-color:  rgb(77, 109, 51);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 350px;
+            padding: 20px;
+        }
+        .titulos{
+            color: rgb(222, 255, 184);
+            background-color: rgb(77, 109, 51);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 350px;
+            padding: 20px;
+        }
+        
+        .nav-menu {
+            background-color: rgb(77, 109, 51);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+        
+        .nav-menu a {
+            color: rgb(222, 255, 184);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-menu a:hover {
+            background-color: rgb(222, 255, 184);
+            color: rgb(77, 109, 51);
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <header>
+        <h1 class="titulos">Esta es mi primera página en HTML.</h1>
+
+            <nav class="nav-menu">
+                <a href="/Ejercicio 4/inicio.html">Inicio</a>
+                    <a href="/Ejercicio 4/acercade.html">Acerca de</a>
+                        <a href="/Ejercicio 4/contacto.html">Contacto</a>
+             </nav>
+
+    </header>
+    <h2 id="subtitulo">Mis frutas favoritas</h2>
+        <ul class="lista">
+            <li>Manzanas</li>
+                <li>Plátanos</li>
+                    <li>Melones</li>
+                            <br>
+        </ul>
+    <h3 id="pasoscafe">Pasos para preparar una taza de cafe</h3>
+        <ul class="lista">
+            <li>Manzanas</li>
+            <li>Plátanos</li>
+            <li>Melones</li>
+        </ul>
+
+        <ol class="lista">
+            <li>Colocar agua a hervir</li>
+            <li>Colocar el sobre de cafe en la agua caliente</li>
+            <li>Agregar al gusto azucar o endulzante</li>
+            <li>Servir</li>
+        </ol>
+    <h2 class="titulos">Enlaces</h2>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+            <br>
+                <a href="/Ejercicio 4/contacto.html">Contacto</a>
+                    <br>
+                        <a href="https://github.com/Crismiau" target="_blank">
+                            <br>
+                                <img src="/Ejercicio 4/assets/image.png" alt="Enlace a mi perfil de GitHub" style="width: 50px; height: auto;">
+        </a>
+    <br>
+    <h3 class="titulos">Mi planta favorita</h3>
+    <img 
+        src="https://images.unsplash.com/photo-1477554193778-9562c28588c0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Imagen de una manzana" 
+        style="width: 300px; height: auto; margin-top: 20px;">
+
+    <!-- seccion de videos -->
+    <h2 class="titulos">Videos</h2>
+    <!-- Video local -->
+    <h3>Video Local</h3>
+        <video width="320" height="240" controls>
+            <source src="/Ejercicio 4/assets/Gato bailando (plantilla).mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+    </video>
+
+    <!-- Video de youTube -->
+    <h3>Video de YouTube</h3>
+    <iframe 
+        width="560" 
+            height="315" 
+                src="https://www.youtube.com/embed/oSmUI3m2kLk?start=119" 
+                    title="Caminata Virtual por el Bosque" 
+                        frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+    </iframe>
+    
+    <!-- Nueva sección de tabla -->
+    <h2 class="titulos">Información Personal</h2>
+    <table style="margin: 20px auto; border-collapse: collapse; width: 60%;">
+        <tr style="background-color: rgb(77, 109, 51); color: rgb(222, 255, 184);">
+            <th style="border: 1px solid black; padding: 10px;">Nombre</th>
+            <th style="border: 1px solid black; padding: 10px;">Edad</th>
+            <th style="border: 1px solid black; padding: 10px;">Ciudad</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Ana garcia</td>
+            <td style="border: 1px solid black; padding: 10px;">25</td>
+            <td style="border: 1px solid black; padding: 10px;">Medellin</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Carlos Ruiz</td>
+            <td style="border: 1px solid black; padding: 10px;">32</td>
+            <td style="border: 1px solid black; padding: 10px;">Bogota</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Maria lopez</td>
+            <td style="border: 1px solid black; padding: 10px;">28</td>
+            <td style="border: 1px solid black; padding: 10px;">Cali</td>
+        </tr>
+    </table>
+    <!--Formularioo-->
+    <h2 class="titulos">Formulario de Contacto</h2>
+    <form style="width: 60%; margin: 20px auto; text-align: left;">
+        <div style="margin-bottom: 15px;">
+            <label for="nombre" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Nombre:</label>
+            <input 
+                type="text" 
+                id="nombre" 
+                name="nombre" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Correo Electrónico:</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="mensaje" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Mensaje:</label>
+            <textarea 
+                id="mensaje" 
+                name="mensaje" 
+                rows="5" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            ></textarea>
+        </div>
+        
+        <button 
+            type="submit" 
+            style="background-color: rgb(77, 109, 51); 
+                   color: rgb(222, 255, 184); 
+                   padding: 10px 20px; 
+                   border: none; 
+                   border-radius: 5px; 
+                   cursor: pointer;"
+        >Enviar Mensaje
+        </button>
+    </form>
+
+    <!-- Formulario completo -->
+    <h2 class="titulos">Registro de Usuario</h2>
+    <form style="width: 60%; margin: 20px auto; text-align: left;">
+        <!-- Nombre -->
+        <div style="margin-bottom: 15px;">
+            <label for="nombre-completo" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Nombre Completo:</label>
+            <input 
+                type="text" 
+                id="nombre-completo" 
+                name="nombre-completo" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+
+        <!-- Correo -->
+        <div style="margin-bottom: 15px;">
+            <label for="correo" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Correo Electrónico:</label>
+            <input 
+                type="email" 
+                id="correo" 
+                name="correo" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+
+        <!-- Contraseña -->
+        <div style="margin-bottom: 15px;">
+            <label for="password" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Contraseña:</label>
+            <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+
+        <!-- Edad -->
+        <div style="margin-bottom: 15px;">
+            <label for="edad" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Edad:</label>
+            <input 
+                type="number" 
+                id="edad" 
+                name="edad" 
+                min="18" 
+                max="100" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+
+        <!-- Fecha de Nacimiento -->
+        <div style="margin-bottom: 15px;">
+            <label for="fecha-nacimiento" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Fecha de Nacimiento:</label>
+            <input 
+                type="date" 
+                id="fecha-nacimiento" 
+                name="fecha-nacimiento" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+        </div>
+
+        <!-- Sexo -->
+        <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Sexo:</label>
+            <div style="display: flex; gap: 20px;">
+                <label style="color: rgb(77, 109, 51);">
+                    <input type="radio" name="sexo" value="masculino" required> Masculino
+                </label>
+                <label style="color: rgb(77, 109, 51);">
+                    <input type="radio" name="sexo" value="femenino" required> Femenino
+                </label>
+                <label style="color: rgb(77, 109, 51);">
+                    <input type="radio" name="sexo" value="otro" required> Otro
+                </label>
+            </div>
+        </div>
+
+        <!-- ciudad -->
+        <div style="margin-bottom: 15px;">
+            <label for="ciudad" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Ciudad:</label>
+            <select 
+                id="ciudad" 
+                name="ciudad" 
+                required 
+                style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+            >
+                <option value="">Seleccione una ciudad</option>
+                <option value="bogota">Bogotá</option>
+                <option value="medellin">Medellín</option>
+                <option value="cali">Cali</option>
+                <option value="barranquilla">Barranquilla</option>
+                <option value="cartagena">Cartagena</option>
+            </select>
+        </div>
+
+        <!-- terminos -->
+        <div style="margin-bottom: 15px;">
+            <label style="color: rgb(77, 109, 51);">
+                <input type="checkbox" name="terminos" required>
+                Acepto los términos y condiciones
+            </label>
+        </div>
+
+        <!-- Boton -->
+        <button 
+            type="submit" 
+            style="background-color: rgb(77, 109, 51); 
+                   color: rgb(222, 255, 184); 
+                   padding: 10px 20px; 
+                   border: none; 
+                   border-radius: 5px; 
+                   cursor: pointer;"
+        >Registrarse
+        </button>
+    </form>
+    
+    <!-- perfil -->
+    <h2 class="titulos">Mi Perfil Personal</h2>
+    
+    <!-- Imagen -->
+    <div style="width: 60%; margin: 20px auto; text-align: center;">
+        <img 
+            src="/Ejercicio 4/assets/perfil.jpg" 
+            alt="Foto de perfil" 
+            style="width: 200px; height: 200px; border-radius: 50%;  border: 7px solid rgb(77, 109, 51);"
+        >
+        
+        <p style="color: rgb(77, 109, 51); font-family: Arial; margin-bottom: 20px;">
+            ¡Hola! Soy un Cris, analista de datos y desarrollador web apasionado por la tecnología y el aprendizaje continuo. 
+            Me encanta crear soluciones innovadoras y aprender nuevas tecnologías.
+        </p>
+
+        <!-- lista de hobbies -->
+        <h3 style="color: rgb(77, 109, 51);">Mis Hobbies</h3>
+        <ul>
+            <li>Trabajar en mi negocio</li>
+                <li>Dibujar</li>
+                    <li>Caminatas</li>
+                        <li>Lectura</li>
+                            <li>Música</li>
+        </ul>
+
+        <!-- video favorito -->
+        <h3 style="color: rgb(77, 109, 51);">Mi Video Favorito</h3>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="/Ejercicio 4/assets/Gato bailando (plantilla).mp4" 
+            title="Mi Video Favorito" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            style="margin: 20px 0;">
+        </iframe>
+
+        <!-- redes sociales -->
+        <h3 style="color: rgb(77, 109, 51);">Mis Redes Sociales</h3>
+        <table style="margin: 20px auto; border-collapse: collapse; width: 100%;">
+            <tr style="background-color: rgb(77, 109, 51); color: rgb(222, 255, 184);">
+                <th style="border: 1px solid black; padding: 10px;">Red Social</th>
+                <th style="border: 1px solid black; padding: 10px;">Usuario</th>
+                <th style="border: 1px solid black; padding: 10px;">Enlace</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px;">GitHub</td>
+                <td style="border: 1px solid black; padding: 10px;">@Crismiau</td>
+                <td style="border: 1px solid black; padding: 10px;">
+                    <a href="https://github.com/Crismiau" target="_blank">Visitar Perfil</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px;">LinkedIn</td>
+                <td style="border: 1px solid black; padding: 10px;">Cristian Camilo Agudelo </td>
+                <td style="border: 1px solid black; padding: 10px;">
+                    <a href="https://www.linkedin.com/in/cristian-camilo-agudelo-3198b42a6/" target="_blank">Visitar Perfil</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+
+<!-- formulario con validación -->
+<h2 class="titulos">Inicio de Sesión</h2>
+<form style="width: 60%; margin: 20px auto; text-align: left;">
+    <!-- Usuario -->
+    <div style="margin-bottom: 15px;">
+        <label for="usuario" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Usuario:</label>
+        <input 
+            type="text" 
+            id="usuario" 
+            name="usuario" 
+            required 
+            pattern="[A-Za-z0-9]{1,12}"
+            title="El usuario debe contener solo letras y números, máximo 12 caracteres"
+            style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+        >
+    </div>
+
+    <!-- Contraseña -->
+    <div style="margin-bottom: 15px;">
+        <label for="contrasena" style="display: block; margin-bottom: 5px; color: rgb(77, 109, 51);">Contraseña:</label>
+        <input 
+            type="password" 
+            id="contrasena" 
+            name="contrasena" 
+            required
+            style="width: 100%; padding: 8px; border: 1px solid rgb(77, 109, 51); border-radius: 5px;"
+        >
+    </div>
+
+    <!-- Botón de envío -->
+    <button 
+        type="submit" 
+        style="background-color: rgb(77, 109, 51); 
+               color: rgb(222, 255, 184); 
+               padding: 10px 20px; 
+               border: none; 
+               border-radius: 5px; 
+               cursor: pointer;"
+    >
+        Iniciar Sesión
+    </button>
+</form>
+</body>
+</html>
