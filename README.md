@@ -5,9 +5,13 @@ Este repositorio contiene ejercicios prácticos de HTML realizados durante el cu
 ## 🪄 Estructura del Proyecto
 
 HTML_Riwi/
+
 ├── Ejercicio1/
+
 │   ├── Images/
+
 │   │   └── image.png
+
 │   └── index.html
 ├── Ejercicio 2/
 │   ├── Index.html
