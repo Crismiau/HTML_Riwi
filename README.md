@@ -4,32 +4,14 @@ Este repositorio contiene ejercicios prácticos de HTML realizados durante el cu
 
 ## 🪄 Estructura del Proyecto
 
-HTML_Riwi/
-
-├── Ejercicio1/
-│   ├── Images/
-│   │   └── image.png
-
-│   └── index.html
-├── Ejercicio 2/
-│   ├── Index.html
-│   └── about.html
-├── Ejercicio 3/
-│   ├── acercade.html
-│   ├── blog.html
-│   ├── contacto.html
-│   ├── imagenes/
-│   │   ├── Gato bailando (plantilla).mp4
-│   │   └── gatito1.png
-│   └── index3.html
-└── Ejercicio 4/
-    ├── acercade.html
-    ├── contacto.html
-    ├── inicio.html
-    └── assets/
-        ├── Gato bailando (plantilla).mp4
-        ├── image.png
-        └── perfil.jpg
+-----------------------------------------------------
+| Carpeta         | Archivo                         |
+|-----------------|---------------------------------|
+| Ejercicio1      | index.html, Images/image.png    |
+| Ejercicio2      | Index.html, about.html          |----------------------------------------------------------------------
+| Ejercicio3      | acerca_de.html, blog.html, contacto.html, index3.html, imagenes/ (Gato bailando.mp4, gatito1.png)     |
+| Ejercicio4      | acerca_de.html, contacto.html, inicio.html, assets/ (Gato bailando.mp4, image.png, perfil.jpg)        |
+---------------------------------------------------------------------------------------------------------------------------
 
 ## Descripción de los Ejercicios
 
