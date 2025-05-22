@@ -6,28 +6,28 @@ Este repositorio contiene ejercicios prácticos de HTML realizados durante el cu
 
 HTML_Riwi/
 ├── Ejercicio1/
-│ ├── Images/
-│ │ └── image.png
-│ └── index.html
+│   ├── Images/
+│   │   └── image.png
+│   └── index.html
 ├── Ejercicio 2/
-│ ├── Index.html
-│ └── about.html
+│   ├── Index.html
+│   └── about.html
 ├── Ejercicio 3/
-│ ├── acercade.html
-│ ├── blog.html
-│ ├── contacto.html
-│ ├── imagenes/
-│ │ ├── Gato bailando (plantilla).mp4
-│ │ └── gatito1.png
-│ └── index3.html
+│   ├── acercade.html
+│   ├── blog.html
+│   ├── contacto.html
+│   ├── imagenes/
+│   │   ├── Gato bailando (plantilla).mp4
+│   │   └── gatito1.png
+│   └── index3.html
 └── Ejercicio 4/
-  ├── acercade.html
-  ├── contacto.html
-  ├── inicio.html
-  └── assets/
-    ├── Gato bailando (plantilla).mp4
-    ├── image.png
-    └── perfil.jpg
+    ├── acercade.html
+    ├── contacto.html
+    ├── inicio.html
+    └── assets/
+        ├── Gato bailando (plantilla).mp4
+        ├── image.png
+        └── perfil.jpg
 
 ## Descripción de los Ejercicios
 
