@@ -7,9 +7,7 @@ Este repositorio contiene ejercicios prácticos de HTML realizados durante el cu
 HTML_Riwi/
 
 ├── Ejercicio1/
-
 │   ├── Images/
-
 │   │   └── image.png
 
 │   └── index.html
