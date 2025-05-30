@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <title>Cart</title>
+</head>
+<body> 
+    <!---QUiero un video de fondo en el inicio donde el usuario pueda darle
+    a un boton de saber más a cerca de cart -->
+    <main id="hero">
+
+        <div class="inicio">
+            <h1 id="titulo-inicio">¿Quieres conocer a Cart?</h1>
+            <!--Aca decidi implementar javascript para hacer una animacion de escritura en la página -->>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const titulo = document.getElementById('titulo-inicio');
+                    if (titulo) { // Aca aseguramos de que el elemento existe
+                        titulo.classList.add('typing');
+                    
+                    }
+                });
+            </script>
+          
+          <div id="boton-contenedor" class="boton">
+               <a href="about.html" target="_blank"><button>Saber más</button></a>
+               </div> 
+        </div>
+
+        <video muted loop autoplay >
+                <source src="assets/video2.mp4"
+                    type="video/mp4" >
+        </video>
+            <div class="capa"></div>
+    </main>
+</body>
+</html>
